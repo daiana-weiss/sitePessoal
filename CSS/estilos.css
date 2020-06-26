@@ -1,0 +1,124 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Comfortaa', cursive;
+
+}
+
+body{
+    background-color: #E0FFFF;
+}
+
+.menu{
+    background-color: white;
+    width:100vw;
+    top:0;
+    left:0;
+    position: fixed;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    padding:20px;
+}
+
+.aMenu{
+    color:#48D1CC;
+    text-decoration: none;
+}
+
+.aMenu:hover{
+    color:black;
+    text-decoration: underline;
+}
+
+
+#aqui{
+    color:black;
+}
+
+#aqui:hover{
+    opacity: 0.5;
+}
+
+h1{
+    margin-top: 100px;
+    font-weight: lighter;
+    text-align: center;
+    text-shadow: 2px 2px 2px gray;
+}
+
+#daiana{
+    width: 250px;
+    display: flex;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+h2{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+#carreiraP{
+    width: 300px;
+    text-indent: 10px;
+    padding-top: 10px;
+}
+
+#carreira{
+    margin:0px auto;
+    display:flex;
+    width: 500px;
+    text-align: justify;
+}
+
+.portfolioP{
+    margin:0px auto;
+    text-align: center;
+}
+
+.layout{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#rodape{
+    margin-top: 80px;
+    padding-top: 20px;
+    text-align: center;
+    background-color: white;
+    
+}
+
+.contato{
+    display: flex;
+    color:black;
+    align-items:center;
+    justify-content: center;
+
+}
+
+.icon{
+    margin-right: 5px;
+}
+
+/*quando o link não foi visitado ainda
+a:link{
+    color: red;
+}
+
+/*quando o link já foi clicado
+a:visited{
+    color:seagreen;
+}
+
+/*quando passa o mouse por cima do link
+a:hover{
+    color:orange;
+    text-decoration: underline;
+    font-size:18px
+}
+
+/*quando o link é clicado
+a:active{
+    color: coral;
+}*/
